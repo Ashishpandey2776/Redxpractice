@@ -10,7 +10,7 @@ export function Counter() {
 
   const handleChange=(e)=>{
     setnumber(parseInt(e.target.value));
-  }
+  };
 
   return (
     <div>
